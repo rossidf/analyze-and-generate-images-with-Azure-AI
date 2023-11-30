@@ -35,7 +35,7 @@ function App() {
       <button>Generar</button>
       {results && (
         <div>
-          <img src={imageUrl} alt='Image for analyze' style={{ maxWidth: "100%" }} />
+          <img src={imageUrl} alt="Analyzed" />
           <pre>{JSON.stringify(results, null, 2)}</pre>
         </div>
       )}
